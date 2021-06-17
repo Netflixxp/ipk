@@ -7,7 +7,7 @@
 ### 1、下载需要更新的ipk
 ![先下载需要更新的ipk](https://cdn.jsdelivr.net/gh/Netflixxp/ipk/img/5.png)
 
-### 2、查找需要替换更新的ipk
+### 2、登陆软路由后台，查找需要替换更新的ipk
 ![先查找原有ipk](https://cdn.jsdelivr.net/gh/Netflixxp/ipk/img/1.png)
 
 ### 3.卸载（移除）刚才搜到的ipk
