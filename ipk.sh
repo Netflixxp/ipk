@@ -23,6 +23,7 @@ svn co https://github.com/fw876/helloworld/trunk/shadowsocks-rust package/shadow
 svn co https://github.com/fw876/helloworld/trunk/v2ray-plugin package/v2ray-plugin
 svn co https://github.com/fw876/helloworld/trunk/v2ray-core package/v2ray-core
 svn co https://github.com/fw876/helloworld/trunk/shadowsocksr-libev package/shadowsocksr-libev
+svn co https://github.com/fw876/helloworld/trunk/naiveproxy package/naiveproxy
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/luci-app-eqos
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 
