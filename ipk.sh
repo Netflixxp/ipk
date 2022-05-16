@@ -34,6 +34,7 @@ svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ipt2socks package/ipt
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/microsocks package/microsocks 
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/pdnsd-alt package/pdnsd-alt
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/v2ray-geodata package/v2ray-geodata
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/dns2tcp package/dns2tcp
 
 sed -i 's/LUCI_DEPENDS.*/LUCI_DEPENDS:=@TARGET_armvirt_64/g' package/lean/luci-app-cpufreq/Makefile
 cat package/lean/luci-app-cpufreq/Makefile
