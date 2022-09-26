@@ -9,7 +9,7 @@ svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-pass
 svn co https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 package/luci-app-passwall2
 svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus package/luci-app-ssr-plus
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
-git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
+# git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
 find package/luci-app-bypass/* -maxdepth 8 -path "*" | xargs -i sed -i 's/smartdns-le/smartdns/g' {}
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/sagernet-core package/sagernet-core
 
@@ -18,6 +18,7 @@ sed -i 's|$(LN) v2ray $(1)/usr/bin/xray|#$(LN) v2ray $(1)/usr/bin/xray|g' packag
 sed -i 's|CONFLICTS:=v2ray-core xray-core|#CONFLICTS:=v2ray-core xray-core|g' package/sagernet-core/Makefile
 
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook package/brook
+svn co https://github.com/xiaorouji/luci-app-bypass/trunk/luci-app-bypass package/luci-app-bypass
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping package/tcping
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/trojan-go
