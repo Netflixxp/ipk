@@ -6,7 +6,7 @@ on:
     inputs:
       ssh:
         description: 'SSH connection to Actions'
-        required: false 
+        required: ture 
         default: 'ture'
         
   schedule:
