@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# 编译 po2lmo (如果有po2lmo可跳过)
-pushd package/luci-app-openclash/tools/po2lmo
-make && sudo make install
-popd
-
 # 科学上网插件依赖
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall package/luci-app-passwall
@@ -13,6 +8,7 @@ svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus package/luci-
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/sagernet-core package/sagernet-core
 svn co https://github.com/jerrykuku/luci-app-vssr/trunk package/luci-app-vssr
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk package/lua-maxminddb
+
 
 # sagernet-core
 # sed -i 's|$(LN) v2ray $(1)/usr/bin/xray|#$(LN) v2ray $(1)/usr/bin/xray|g' package/sagernet-core/Makefile
