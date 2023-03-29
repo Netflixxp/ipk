@@ -1,7 +1,7 @@
 # 使用说明
 因为大佬们固件更新频繁，如果没有大问题，其实并没有必要追新；更新常用插件IPK也是一个办法。下面介绍一下如何更新我们常用的科学上网ipk。
 
-### 点击右边的[Releases](https://github.com/Netflixxp/ipk/releases)
+### 点击右边的[更新日期]([https://github.com/Netflixxp/ipk/releases](https://github.com/Netflixxp/ipk/releases/tag/ipk))
 下载需要更新的IPK文件，如果有zh-cn的证明有中文语言包，一并下载。
 
 ### 1、下载需要更新的ipk
