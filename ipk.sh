@@ -11,7 +11,7 @@ svn co https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 p
 svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus package/luci-app-ssr-plus
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/sagernet-core package/sagernet-core
 svn co https://github.com/jerrykuku/luci-app-vssr/trunk package/luci-app-vssr
-
+svn co https://github.com/jerrykuku/lua-maxminddb/trunk package/lua-maxminddb
 
 # sagernet-core
 # sed -i 's|$(LN) v2ray $(1)/usr/bin/xray|#$(LN) v2ray $(1)/usr/bin/xray|g' package/sagernet-core/Makefile
