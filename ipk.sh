@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# 编译 po2lmo (如果有po2lmo可跳过)
 pushd package/luci-app-openclash/tools/po2lmo
 make && sudo make install
 popd
