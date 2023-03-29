@@ -14,8 +14,8 @@ svn co https://github.com/jerrykuku/luci-app-vssr/trunk package/luci-app-vssr
 
 
 # sagernet-core
-sed -i 's|$(LN) v2ray $(1)/usr/bin/xray|#$(LN) v2ray $(1)/usr/bin/xray|g' package/sagernet-core/Makefile
-sed -i 's|CONFLICTS:=v2ray-core xray-core|#CONFLICTS:=v2ray-core xray-core|g' package/sagernet-core/Makefile
+# sed -i 's|$(LN) v2ray $(1)/usr/bin/xray|#$(LN) v2ray $(1)/usr/bin/xray|g' package/sagernet-core/Makefile
+# sed -i 's|CONFLICTS:=v2ray-core xray-core|#CONFLICTS:=v2ray-core xray-core|g' package/sagernet-core/Makefile
 
 # 编译 po2lmo (如果有po2lmo可跳过)
 pushd package/luci-app-openclash/tools/po2lmo
