@@ -26,8 +26,6 @@ svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/t
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/hysteria package/hysteria
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/naiveproxy package/naiveproxy
-rm -rf package/naiveproxy
-cp -rf $GITHUB_WORKSPACE/general/naiveproxy package/naiveproxy
 svn co https://github.com/fw876/helloworld/trunk/xray-core package/xray-core
 svn co https://github.com/fw876/helloworld/trunk/simple-obfs package/simple-obfs
 svn co https://github.com/fw876/helloworld/trunk/trojan package/trojan
