@@ -45,7 +45,6 @@ svn co https://github.com/fw876/helloworld/trunk/lua-neturl package/lua-neturl
 svn co https://github.com/fw876/helloworld/trunk/redsocks2 package/redsocks2
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/pdnsd-alt package/pdnsd-alt
 svn co https://github.com/fw876/helloworld/trunk/v2ray-geodata package/v2ray-geodata
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost package/luci-app-gost
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
