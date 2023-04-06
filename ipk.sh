@@ -47,4 +47,4 @@ svn co https://github.com/xiaorouji/openwrt-passwall/trunk/pdnsd-alt package/pdn
 svn co https://github.com/fw876/helloworld/trunk/v2ray-geodata package/v2ray-geodata
 
 ./scripts/feeds update -a
-./scripts/feeds install -a
+./scripts/feeds install -a -f
